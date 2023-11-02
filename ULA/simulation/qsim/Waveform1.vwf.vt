@@ -1,0 +1,170 @@
+// Copyright (C) 2021  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and any partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details, at
+// https://fpgasoftware.intel.com/eula.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "09/19/2023 15:16:29"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          ULA
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module ULA_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg A0;
+reg A1;
+reg A2;
+reg A3;
+reg B0;
+reg B1;
+reg B2;
+reg B3;
+reg [1:0] CONT;
+// wires                                               
+wire Z0;
+wire Z1;
+wire Z2;
+wire Z3;
+
+// assign statements (if any)                          
+ULA i1 (
+// port map - connection between master ports and signals/registers   
+	.A0(A0),
+	.A1(A1),
+	.A2(A2),
+	.A3(A3),
+	.B0(B0),
+	.B1(B1),
+	.B2(B2),
+	.B3(B3),
+	.CONT(CONT),
+	.Z0(Z0),
+	.Z1(Z1),
+	.Z2(Z2),
+	.Z3(Z3)
+);
+initial 
+begin 
+#20000000 $finish;
+end 
+
+// A0
+initial
+begin
+	repeat(62)
+	begin
+		A0 = 1'b0;
+		A0 = #160000 1'b1;
+		# 160000;
+	end
+	A0 = 1'b0;
+end 
+
+// A1
+always
+begin
+	A1 = 1'b0;
+	A1 = #80000 1'b1;
+	#80000;
+end 
+
+// A2
+always
+begin
+	A2 = 1'b0;
+	A2 = #40000 1'b1;
+	#40000;
+end 
+
+// A3
+always
+begin
+	A3 = 1'b0;
+	A3 = #20000 1'b1;
+	#20000;
+end 
+
+// B0
+initial
+begin
+	repeat(41)
+	begin
+		B0 = 1'b0;
+		B0 = #240000 1'b1;
+		# 240000;
+	end
+	B0 = 1'b0;
+	B0 = #240000 1'b1;
+end 
+
+// B1
+initial
+begin
+	repeat(83)
+	begin
+		B1 = 1'b0;
+		B1 = #120000 1'b1;
+		# 120000;
+	end
+	B1 = 1'b0;
+end 
+
+// B2
+initial
+begin
+	repeat(166)
+	begin
+		B2 = 1'b0;
+		B2 = #60000 1'b1;
+		# 60000;
+	end
+	B2 = 1'b0;
+	B2 = #60000 1'b1;
+end 
+
+// B3
+initial
+begin
+	repeat(333)
+	begin
+		B3 = 1'b0;
+		B3 = #30000 1'b1;
+		# 30000;
+	end
+	B3 = 1'b0;
+end 
+// CONT[ 1 ]
+always
+begin
+	CONT[1] = 1'b0;
+	CONT[1] = #200000 1'b1;
+	#200000;
+end 
+// CONT[ 0 ]
+always
+begin
+	CONT[0] = 1'b0;
+	CONT[0] = #100000 1'b1;
+	#100000;
+end 
+endmodule
+

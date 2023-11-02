@@ -1,0 +1,119 @@
+|flipflop
+q1 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLK => inst.CLK
+CLK => inst2.CLK
+CLK => inst3.CLK
+CLK => inst4.CLK
+D => mux21:ghfqsghfdqw.data1
+LOAD => mux21:ghfqsghfdqw.sel
+LOAD => mux21:sqhffqwhfd.sel
+LOAD => mux21:efgf3f.sel
+LOAD => mux21:fe33efe3r3e.sel
+q2 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+D2 => mux21:sqhffqwhfd.data1
+q3 <= inst3.DB_MAX_OUTPUT_PORT_TYPE
+D3 => mux21:efgf3f.data1
+q4 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+D4 => mux21:fe33efe3r3e.data1
+
+
+|flipflop|mux21:ghfqsghfdqw
+data0 => sub_wire1[0].IN1
+data1 => sub_wire1[1].IN1
+sel => sub_wire4.IN1
+result <= lpm_mux:LPM_MUX_component.result
+
+
+|flipflop|mux21:ghfqsghfdqw|lpm_mux:LPM_MUX_component
+data[0][0] => mux_pjc:auto_generated.data[0]
+data[1][0] => mux_pjc:auto_generated.data[1]
+sel[0] => mux_pjc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_pjc:auto_generated.result[0]
+
+
+|flipflop|mux21:ghfqsghfdqw|lpm_mux:LPM_MUX_component|mux_pjc:auto_generated
+data[0] => l1_w0_n0_mux_dataout.IN1
+data[1] => l1_w0_n0_mux_dataout.IN1
+result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout.IN0
+sel[0] => _.IN0
+
+
+|flipflop|mux21:sqhffqwhfd
+data0 => sub_wire1[0].IN1
+data1 => sub_wire1[1].IN1
+sel => sub_wire4.IN1
+result <= lpm_mux:LPM_MUX_component.result
+
+
+|flipflop|mux21:sqhffqwhfd|lpm_mux:LPM_MUX_component
+data[0][0] => mux_pjc:auto_generated.data[0]
+data[1][0] => mux_pjc:auto_generated.data[1]
+sel[0] => mux_pjc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_pjc:auto_generated.result[0]
+
+
+|flipflop|mux21:sqhffqwhfd|lpm_mux:LPM_MUX_component|mux_pjc:auto_generated
+data[0] => l1_w0_n0_mux_dataout.IN1
+data[1] => l1_w0_n0_mux_dataout.IN1
+result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout.IN0
+sel[0] => _.IN0
+
+
+|flipflop|mux21:efgf3f
+data0 => sub_wire1[0].IN1
+data1 => sub_wire1[1].IN1
+sel => sub_wire4.IN1
+result <= lpm_mux:LPM_MUX_component.result
+
+
+|flipflop|mux21:efgf3f|lpm_mux:LPM_MUX_component
+data[0][0] => mux_pjc:auto_generated.data[0]
+data[1][0] => mux_pjc:auto_generated.data[1]
+sel[0] => mux_pjc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_pjc:auto_generated.result[0]
+
+
+|flipflop|mux21:efgf3f|lpm_mux:LPM_MUX_component|mux_pjc:auto_generated
+data[0] => l1_w0_n0_mux_dataout.IN1
+data[1] => l1_w0_n0_mux_dataout.IN1
+result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout.IN0
+sel[0] => _.IN0
+
+
+|flipflop|mux21:fe33efe3r3e
+data0 => sub_wire1[0].IN1
+data1 => sub_wire1[1].IN1
+sel => sub_wire4.IN1
+result <= lpm_mux:LPM_MUX_component.result
+
+
+|flipflop|mux21:fe33efe3r3e|lpm_mux:LPM_MUX_component
+data[0][0] => mux_pjc:auto_generated.data[0]
+data[1][0] => mux_pjc:auto_generated.data[1]
+sel[0] => mux_pjc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_pjc:auto_generated.result[0]
+
+
+|flipflop|mux21:fe33efe3r3e|lpm_mux:LPM_MUX_component|mux_pjc:auto_generated
+data[0] => l1_w0_n0_mux_dataout.IN1
+data[1] => l1_w0_n0_mux_dataout.IN1
+result[0] <= l1_w0_n0_mux_dataout.DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => l1_w0_n0_mux_dataout.IN0
+sel[0] => _.IN0
+
+
