@@ -58,6 +58,7 @@ The next step is the ROM (Read Only Memory). It is responsible for sending the c
 Another component of the CPU is the counter, which was used a synchronous 8-bit counter. Its function is to inform at which memory address the CPU is to execute.
 
 ![Figure 5. 8-bit synchronous counter circuit](img/contador_circ.png)
+
 ![Figure 6. Counter simulation in Quartus](img/simu_cont.png)
 
 ### 2.5 Control Unit
@@ -65,6 +66,7 @@ Another component of the CPU is the counter, which was used a synchronous 8-bit 
 Another important component of the CPU is the Control Unit. It serves to administer all the processes of the CPU (jump, load, etc.).
 
 ![Figure 7. Control unit circuit](img/UC_circ.png)
+
 ![Figure 8. Control unit simulation in Quartus](img/simu_UC.png)
 
 ## 3. CPU
@@ -72,5 +74,6 @@ Another important component of the CPU is the Control Unit. It serves to adminis
 Thus, using the previously discussed components, we built the CPU presented below.
 
 ![Figure 9. CPU circuit](img/cpu_circ.png)
+
 ![Figure 10. CPU simulation](img/simu_cpu.png)
 
