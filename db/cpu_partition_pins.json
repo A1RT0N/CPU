@@ -1,0 +1,401 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "hex50",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ROM[0]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "COUNT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operando[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operando[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operando[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operando[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex51",
+					"strict" : false
+				},
+				{
+					"name" : "hex52",
+					"strict" : false
+				},
+				{
+					"name" : "hex53",
+					"strict" : false
+				},
+				{
+					"name" : "hex54",
+					"strict" : false
+				},
+				{
+					"name" : "hex55",
+					"strict" : false
+				},
+				{
+					"name" : "hex56",
+					"strict" : false
+				},
+				{
+					"name" : "hex40",
+					"strict" : false
+				},
+				{
+					"name" : "hex41",
+					"strict" : false
+				},
+				{
+					"name" : "hex42",
+					"strict" : false
+				},
+				{
+					"name" : "hex43",
+					"strict" : false
+				},
+				{
+					"name" : "hex44",
+					"strict" : false
+				},
+				{
+					"name" : "hex45",
+					"strict" : false
+				},
+				{
+					"name" : "hex46",
+					"strict" : false
+				},
+				{
+					"name" : "hex30",
+					"strict" : false
+				},
+				{
+					"name" : "hex31",
+					"strict" : false
+				},
+				{
+					"name" : "hex32",
+					"strict" : false
+				},
+				{
+					"name" : "hex33",
+					"strict" : false
+				},
+				{
+					"name" : "hex34",
+					"strict" : false
+				},
+				{
+					"name" : "hex35",
+					"strict" : false
+				},
+				{
+					"name" : "hex36",
+					"strict" : false
+				},
+				{
+					"name" : "hex20",
+					"strict" : false
+				},
+				{
+					"name" : "hex21",
+					"strict" : false
+				},
+				{
+					"name" : "hex22",
+					"strict" : false
+				},
+				{
+					"name" : "hex23",
+					"strict" : false
+				},
+				{
+					"name" : "hex24",
+					"strict" : false
+				},
+				{
+					"name" : "hex25",
+					"strict" : false
+				},
+				{
+					"name" : "hex26",
+					"strict" : false
+				},
+				{
+					"name" : "hex10",
+					"strict" : false
+				},
+				{
+					"name" : "A3",
+					"strict" : false
+				},
+				{
+					"name" : "B0",
+					"strict" : false
+				},
+				{
+					"name" : "A0",
+					"strict" : false
+				},
+				{
+					"name" : "B1",
+					"strict" : false
+				},
+				{
+					"name" : "A1",
+					"strict" : false
+				},
+				{
+					"name" : "B2",
+					"strict" : false
+				},
+				{
+					"name" : "A2",
+					"strict" : false
+				},
+				{
+					"name" : "B3",
+					"strict" : false
+				},
+				{
+					"name" : "ULA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ULA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "hex11",
+					"strict" : false
+				},
+				{
+					"name" : "hex12",
+					"strict" : false
+				},
+				{
+					"name" : "hex13",
+					"strict" : false
+				},
+				{
+					"name" : "hex14",
+					"strict" : false
+				},
+				{
+					"name" : "hex15",
+					"strict" : false
+				},
+				{
+					"name" : "hex16",
+					"strict" : false
+				},
+				{
+					"name" : "hex00",
+					"strict" : false
+				},
+				{
+					"name" : "hex01",
+					"strict" : false
+				},
+				{
+					"name" : "hex02",
+					"strict" : false
+				},
+				{
+					"name" : "hex03",
+					"strict" : false
+				},
+				{
+					"name" : "hex04",
+					"strict" : false
+				},
+				{
+					"name" : "hex05",
+					"strict" : false
+				},
+				{
+					"name" : "hex06",
+					"strict" : false
+				},
+				{
+					"name" : "led0",
+					"strict" : false
+				},
+				{
+					"name" : "led1",
+					"strict" : false
+				},
+				{
+					"name" : "led2",
+					"strict" : false
+				},
+				{
+					"name" : "led3",
+					"strict" : false
+				},
+				{
+					"name" : "led4",
+					"strict" : false
+				},
+				{
+					"name" : "led5",
+					"strict" : false
+				},
+				{
+					"name" : "led6",
+					"strict" : false
+				},
+				{
+					"name" : "RG_IN",
+					"strict" : false
+				},
+				{
+					"name" : "ClearRegi",
+					"strict" : false
+				},
+				{
+					"name" : "ClearCont",
+					"strict" : false
+				},
+				{
+					"name" : "JUMP",
+					"strict" : false
+				},
+				{
+					"name" : "load_1",
+					"strict" : false
+				},
+				{
+					"name" : "load_2",
+					"strict" : false
+				},
+				{
+					"name" : "led7",
+					"strict" : false
+				},
+				{
+					"name" : "Master_clear",
+					"strict" : false
+				},
+				{
+					"name" : "reset_debouncer",
+					"strict" : false
+				},
+				{
+					"name" : "clock",
+					"strict" : false
+				},
+				{
+					"name" : "pin_clock",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
