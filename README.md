@@ -4,7 +4,9 @@
 **INSTITUTE OF MATHEMATICAL AND COMPUTER SCIENCE**
 
 Augusto Cavalcante Barbosa Pereira 
+
 Ayrton da Costa Ganem Filho 
+
 Felipe Volkweis de Oliveira 
 
 CPU Work Report - Digital Systems  
