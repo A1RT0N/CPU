@@ -1,88 +1,75 @@
-# CPU Design in Quartus
+# Digital Systems CPU Project in Quartus
 
-This repository contains the design and simulation files for a CPU developed in Quartus made by students of the University of São Paulo.
+**UNIVERSITY OF SÃO PAULO**  
+**INSTITUTE OF MATHEMATICAL AND COMPUTER SCIENCE**
 
-- [Components](#components)
-  - [Control Unit (UC)](#control-unit-uc)
-  - [Arithmetic Logic Unit (ALU)](#arithmetic-logic-unit-alu)
-  - [Counter Circuit](#counter-circuit)
-  - [CPU Circuit Overview](#cpu-circuit-overview)
-  - [Registers](#registers)
-- [Simulations](#simulations)
-  - [ROM Simulation](#rom-simulation)
-  - [Control Unit Simulation](#control-unit-simulation)
-  - [Counter Circuit Simulation](#counter-circuit-simulation)
-  - [CPU Simulation](#cpu-simulation)
-  - [Registers Simulation](#registers-simulation)
+Augusto Cavalcante Barbosa Pereira – 14651531  
+Ayrton da Costa Ganem Filho – 14560190  
+Felipe Volkweis de Oliveira - 14570041  
 
----
+CPU Work Report - Digital Systems  
+Professor Danilo H. Spatti  
+São Carlos SP  
+11/06/2023
 
-## Components
+## Table of Contents
 
-### Control Unit (UC)
+1. [INTRODUCTION](#1-introduction)
+2. [CPU COMPONENTS](#2-cpu-components)
+   1. [Register](#21-register)
+   2. [ALU](#22-alu)
+   3. [ROM](#23-rom)
+   4. [Counter](#24-counter)
+   5. [Control Unit](#25-control-unit)
+3. [CPU](#3-cpu)
 
-![Control Unit](img/UC_circ.png)
+## 1. Introduction
 
-**The Control Unit (UC)** orchestrates the operations of the processor. It decodes instructions from memory and coordinates the CPU's response.
+The CPU (central processing unit) is the central processing unit of the computer. It is composed of an 8-bit counter, a ROM, a control unit, an ALU (arithmetic logic unit), and two registers, all associated with a clock.
 
-### Arithmetic Logic Unit (ALU)
+In the implementation of this project, the clock was applied on the falling edge in the ROM, while on the rising edge was the counter and the registers.
 
-![Arithmetic Logic Unit](img/ULA.jpg)
+## 2. CPU Components
 
-**The Arithmetic Logic Unit (ALU)**, also referred to as the ULA, is responsible for performing all arithmetic and logical operations, such as addition, subtraction, and bitwise operations.
+### 2.1 Register
 
-### Counter Circuit
+A register is formed by a set of flip flops. In the case of the work, a 4-bit parallel load register was used.
 
-![Counter Circuit](img/contador_circ.png)
+![Figure 1. Circuit of a 4-bit parallel load register](img/registrador_circ.png)
+![Figure 2. Quartus simulation of the register in figure 1](img/simu_regi.png)
 
-**The Counter Circuit** is integral to managing instruction sequencing and memory addressing, with capabilities to increment and decrement values as required.
+### 2.2 ALU
 
-### CPU Circuit Overview
+Another part of the CPU is the ALU which performs the operations of addition, subtraction, division, and multiplication by 2.
 
-![CPU Circuit](img/cpu_circ.png)
+![Figure 3. ALU simulation in Quartus](img/ULA.jpg)
 
-**The CPU Circuit Overview** illustrates the comprehensive architecture, showcasing how the ALU, Control Unit, and Registers interact with each other and with memory and I/O systems.
+In this case, CONT denotes the ALU operations: 00 is the sum between A and B, 01 is the subtraction between A and B, 10 is the multiplication of A by 2, 11 is the division of A by 2.
 
-### Registers
+### 2.3 ROM
 
-![Registers](img/registrador_circ.png)
+The next step is the ROM (Read Only Memory). It is responsible for sending the commands to the control unit.
 
-**Registers** provide rapid access to data and instructions necessary for immediate processing, playing a pivotal role in the CPU's operation.
+![Figure 4. ROM simulation in Quartus](img/simu_ROM.png)
 
----
+### 2.4 Counter
 
-## Simulations
+Another component of the CPU is the counter, which was used a synchronous 8-bit counter. Its function is to inform at which memory address the CPU is to execute.
 
-### ROM Simulation
+![Figure 5. 8-bit synchronous counter circuit](img/contador_circ.png)
+![Figure 6. Counter simulation in Quartus](img/simu_cont.png)
 
-![ROM Simulation](img/simu_ROM.png)
+### 2.5 Control Unit
 
-**The ROM Simulation** demonstrates the operation of the Read-Only Memory or related memory components, crucial for storing the CPU's firmware and instruction sets.
+Another important component of the CPU is the Control Unit. It serves to administer all the processes of the CPU (jump, load, etc.).
 
-### Control Unit Simulation
+![Figure 7. Control unit circuit](img/UC_circ.png)
+![Figure 8. Control unit simulation in Quartus](img/simu_UC.png)
 
-![Control Unit Simulation](img/simu_UC.png)
+## 3. CPU
 
-**The Control Unit Simulation** verifies the UC's functionality in interpreting and dispatching CPU instructions correctly.
+Thus, using the previously discussed components, we built the CPU presented below.
 
-### Counter Circuit Simulation
-
-![Counter Circuit Simulation](img/simu_cont.png)
-
-**The Counter Circuit Simulation** ensures accurate tracking of program execution and memory addressing, testing both increment and decrement operations.
-
-### CPU Simulation
-
-![CPU Simulation](img/simu_cpu.png)
-
-**The Full CPU Simulation** validates the cohesive performance of all CPU components, confirming their ability to work in unison.
-
-### Registers Simulation
-
-![Registers Simulation](img/simu_regi.png)
-
-**The Registers Simulation** focuses on the capacity of the registers to hold and quickly supply critical operational data and instructions.
-
----
-
+![Figure 9. CPU circuit](img/cpu_circ.png)
+![Figure 10. CPU simulation](img/simu_cpu.png)
 
