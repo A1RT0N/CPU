@@ -3,14 +3,11 @@
 **UNIVERSITY OF SÃO PAULO**  
 **INSTITUTE OF MATHEMATICAL AND COMPUTER SCIENCE**
 
-Augusto Cavalcante Barbosa Pereira – 14651531  
-Ayrton da Costa Ganem Filho – 14560190  
-Felipe Volkweis de Oliveira - 14570041  
+Augusto Cavalcante Barbosa Pereira 
+Ayrton da Costa Ganem Filho 
+Felipe Volkweis de Oliveira 
 
 CPU Work Report - Digital Systems  
-Professor Danilo H. Spatti  
-São Carlos SP  
-11/06/2023
 
 ## Table of Contents
 
