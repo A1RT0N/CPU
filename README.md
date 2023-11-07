@@ -36,6 +36,7 @@ In the implementation of this project, the clock was applied on the falling edge
 A register is formed by a set of flip flops. In the case of the work, a 4-bit parallel load register was used.
 
 ![Figure 1. Circuit of a 4-bit parallel load register](img/registrador_circ.png)
+
 ![Figure 2. Quartus simulation of the register in figure 1](img/simu_regi.png)
 
 ### 2.2 ALU
